@@ -4,9 +4,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6FF5F&height=200&section=header&text=Utkarsh%20Verma&fontColor=ffffff&fontSize=40&animation=fadeIn&fontAlignY=35&desc=AI%20×%20VLSI%20×%20Quantum%20Fusion%20Engineer&descAlignY=55&descAlign=50"/>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=ffffff&center=true&vCenter=true&width=650&lines=👨‍💻+AI+Engineer+%7C+VLSI+Designer+%7C+Quantum+Explorer;🚀+Building+Neural+Processing+Units+%26+LLM+Pipelines;💡+When+Hardware+Thinks,+Innovation+Happens.">
-</p>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=ffffff&center=true&vCenter=true&width=650&lines=👨‍💻+AI+Engineer+%7C+VLSI+Designer+%7C+Quantum+Explorer;🚀+Building+Neural+Processing+Units+%26+LLM+Pipelines;💡+When+Hardware+Thinks,+Innovation+Happens.)
+
 
 ---
 
@@ -128,7 +127,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=utkarshverma439&show_icons=true&theme=tokyonight&hide_border=true&title_color=1e90ff&text_color=ffffff&icon_color=1e90ff" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=utkarshverma439&theme=tokyonight&hide_border=true" width="48%">
+  <img src="https://streak-stats.demolab.com?user=utkarshverma439&theme=highcontrast" alt="GitHub Streak" />
 </p>
 
 <p align="center">
