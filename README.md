@@ -126,8 +126,8 @@
 ## 📈 Live Stats Dashboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=utkarshverma439&show_icons=true&theme=tokyonight&hide_border=true&title_color=1e90ff&text_color=ffffff&icon_color=1e90ff" width="48%">
-  <img src="https://streak-stats.demolab.com?user=utkarshverma439&theme=highcontrast" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=utkarshverma439&show_icons=true&theme=tokyonight&hide_border=true&title_color=1e90ff&text_color=ffffff&icon_color=1e90ff" width="40%" style="margin-right: 40 px;" />
+  <img src="https://streak-stats.demolab.com?user=utkarshverma439&theme=highcontrast" alt="GitHub Streak" width="40%" />
 </p>
 
 <p align="center">
