@@ -1,26 +1,34 @@
-name: Update README every 30 minutes
+name: 🔄 Auto Update README
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update README
+      - name: Update timestamp in README
         run: |
-          # Add your script or commands here to automatically generate the README content
-          echo "This README was updated at $(date)" > README.md
+          echo "🧠 Updating README timestamp..."
+          sed -i "s|<!--TIMESTAMP-->|$(date '+%Y-%m-%d %H:%M:%S') UTC|" README.md || echo "No timestamp placeholder found"
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull origin main --rebase || true
           git add README.md
-          git commit -m "Update README" || echo "No changes to commit"
-          git push
+          git commit -m "🔄 Auto-update README [skip ci]" || echo "No changes to commit"
+          git push origin HEAD:main
