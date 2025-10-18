@@ -31,4 +31,4 @@ jobs:
           git pull origin main --rebase || true
           git add README.md
           git commit -m "🔄 Auto-update README [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:main
+          git push origin main || (git pull --rebase origin main && git push origin main)
