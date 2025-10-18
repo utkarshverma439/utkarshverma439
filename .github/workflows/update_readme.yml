@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *'  # runs every 6 hours
   workflow_dispatch:       # allows manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
